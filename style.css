@@ -1,0 +1,83 @@
+/*------------------Stuff-----------------*/
+* {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    position: relative;
+}
+
+/*----------------------Header--------------------*/
+.header{
+    position: relative;
+    background-image: url('./Assets/home img.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 580px;
+    padding-top: 20px;
+}
+.head-txt{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+}
+.head-txt h1, .head-txt p{
+    color: white;
+    float:none;
+}
+.head-txt h1{
+    font-size: 72px;
+}
+.head-txt p{
+    font-size: 24px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+}
+
+/*------------------Bahasa Section----------------------*/
+.bahasa{
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    overflow: auto;
+}
+.bahasa img{
+    height: 305px;
+    width: 305px;
+    margin-right: 120px;
+    float: left;
+}
+.bahasa h2 {
+    font-size: 60px;
+    color: #141D2B;
+}
+.bahasa p{
+    font-size: 24px;
+}
+
+/*-------------------Tarian Section------------------*/
+.tarian{
+    padding-top: 100px;
+    background-color: #141D2B;
+}
+.tarian-title{
+    display: flex;
+    justify-content: center;
+}
+.tarian h2 {
+    color: white;
+    font-size: 60px;
+}
